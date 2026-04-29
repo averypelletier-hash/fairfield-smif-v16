@@ -481,6 +481,10 @@ const upColor = up => up===null?"#94a3b8":up?"#34d399":"#f87171";
 ═══════════════════════════════════════════════════════════════ */
 async function loadAll() {
   setLoading(true);
+  const lastUpdateEl = document.getElementById("last-update");
+  if (lastUpdateEl) {
+    lastUpdateEl.textContent = "Waking data server... first load can take up to 60s";
+  }
 
   // 1. Holdings config
   try {
@@ -493,7 +497,7 @@ async function loadAll() {
     KNOWN_SECTORS = cfg.sectorOrder || Object.keys(SECTORS_OBJ);
     ALL_HOLDINGS  = KNOWN_SECTORS.flatMap(s => (SECTORS_OBJ[s]||[]).map(h=>({...h, sector:s})));
   } catch(e) {
-    showError(`Cannot reach server. Make sure server.py is running.\nError: ${e.message}`);
+    showError(`Cannot reach API right now. The free data server may be waking up (up to 60s). Try Refresh again in a moment.\nError: ${e.message}`);
     setLoading(false);
     return;
   }
@@ -513,7 +517,7 @@ async function loadAll() {
     showError(`Market data unavailable: ${e.message}`);
   }
 
-  document.getElementById("last-update").textContent = new Date().toLocaleTimeString();
+  document.getElementById("last-update").textContent = `Updated ${new Date().toLocaleTimeString()}`;
   setLoading(false);
   buildTabs();
   renderContent();
