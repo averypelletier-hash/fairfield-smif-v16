@@ -1,0 +1,178 @@
+{
+  "holdings": [
+    {
+      "ticker": "SNVXX",
+      "shares": 75946.96,
+      "cost_basis": 1,
+      "sector": "Cash"
+    },
+    {
+      "ticker": "CASH",
+      "shares": 1,
+      "cost_basis": 6101.53,
+      "sector": "Cash"
+    },
+    {
+      "ticker": "AAPL",
+      "shares": 91,
+      "cost_basis": 196.87,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "META",
+      "shares": 16.1237,
+      "cost_basis": 328.57,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MSFT",
+      "shares": 50.0891,
+      "cost_basis": 318.3,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "MU",
+      "shares": 90,
+      "cost_basis": 165.64,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "NVDA",
+      "shares": 149.2806,
+      "cost_basis": 50.97,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "PANW",
+      "shares": 111,
+      "cost_basis": 118.67,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "AMZN",
+      "shares": 124,
+      "cost_basis": 132.88,
+      "sector": "Technology"
+    },
+    {
+      "ticker": "JNJ",
+      "shares": 40,
+      "cost_basis": 150,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "CI",
+      "shares": 60.6893,
+      "cost_basis": 275.92,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ABBV",
+      "shares": 69,
+      "cost_basis": 178.75,
+      "sector": "Healthcare"
+    },
+    {
+      "ticker": "ITA",
+      "shares": 100,
+      "cost_basis": 105.85,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "XLI",
+      "shares": 67.8693,
+      "cost_basis": 100.99,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "HON",
+      "shares": 76,
+      "cost_basis": 195.46,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "URI",
+      "shares": 20,
+      "cost_basis": 586.97,
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "GLD",
+      "shares": 70,
+      "cost_basis": 217.08,
+      "sector": "Commodities"
+    },
+    {
+      "ticker": "ORLY",
+      "shares": 210,
+      "cost_basis": 46.58,
+      "sector": "Consumer"
+    },
+    {
+      "ticker": "COST",
+      "shares": 20,
+      "cost_basis": 506.3,
+      "sector": "Consumer"
+    },
+    {
+      "ticker": "PG",
+      "shares": 72.4967,
+      "cost_basis": 153.54,
+      "sector": "Consumer"
+    },
+    {
+      "ticker": "MAR",
+      "shares": 43,
+      "cost_basis": 320,
+      "sector": "Consumer"
+    },
+    {
+      "ticker": "CVX",
+      "shares": 66.4778,
+      "cost_basis": 127.38,
+      "sector": "Energy"
+    },
+    {
+      "ticker": "EQT",
+      "shares": 200,
+      "cost_basis": 55.57,
+      "sector": "Energy"
+    },
+    {
+      "ticker": "V",
+      "shares": 29,
+      "cost_basis": 344,
+      "sector": "Financials"
+    },
+    {
+      "ticker": "GS",
+      "shares": 27.999,
+      "cost_basis": 397.9,
+      "sector": "Financials"
+    },
+    {
+      "ticker": "PGR",
+      "shares": 49,
+      "cost_basis": 264.78,
+      "sector": "Financials"
+    },
+    {
+      "ticker": "BND",
+      "shares": 395,
+      "cost_basis": 71.25,
+      "sector": "Fixed Income"
+    },
+    {
+      "ticker": "FFRHX",
+      "shares": 2253.35,
+      "cost_basis": 9.34,
+      "sector": "Fixed Income"
+    },
+    {
+      "ticker": "FLIN",
+      "shares": 280,
+      "cost_basis": 35.96,
+      "sector": "International"
+    }
+  ]
+}
