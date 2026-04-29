@@ -433,7 +433,7 @@ main { max-width: 1560px; margin: 0 auto; padding: 24px 28px; animation: fadeUp 
 ═══════════════════════════════════════════════════════════════ */
 // Production API base URL (set this to your deployed backend URL).
 // Example: "https://fairfield-api.onrender.com"
-const PROD_API = "";
+const PROD_API = "https://smif-api.onrender.com";
 const API = (() => {
   if (PROD_API) return PROD_API.replace(/\/+$/, "");
   const isLocalHost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
